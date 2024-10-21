@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AluraBooks</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header class="cabeçalho">
+    <div class="container">
+      <input type="checkbox" id="menu" class="container__botao">
+      <label for="menu">
+        <span class="cabeçalho__menu-hamburguer container__imagem"></span>
+      </label>
+      <ul class="lista-menu">
+        <li class="lista-menu__titulo">Categorias</li>
+        <li class="lista-menu__item">
+          <a href="#" class="lista-menu__link">Programação</a>
+        </li>
+        <li class="lista-menu__item">
+          <a href="#" class="lista-menu__link">Front-end</a>
+        </li>
+        <li class="lista-menu__item">
+          <a href="#" class="lista-menu__link">Infraestrutura</a>
+        </li>
+        <li class="lista-menu__item">
+          <a href="#" class="lista-menu__link">Business</a>
+        </li>
+        <li class="lista-menu__item">
+          <a href="#" class="lista-menu__link">Design & UX</a>
+        </li>
+      </ul>
+      <img src="img/images.png" alt="Logo" class="container__imagem">
+    </div>
+    <div class="container">
+      <a href="#"><img src="img/download.jpeg" alt="Kit de Pinceis" class="container__imagem"></a>
+      <a href="#"><img src="img/images.jpeg" alt="Carrinhos de compras" class="container__imagem"></a>
+      <a href="#"><img src="img/Usuario.svg" alt="Meu perfil" class="container__imagem"></a>
+    </div>
+  </header>
+
+  <section class="banner">
+    <h2 class="banner__titulo">Já sabe por onde começar?</h2>
+    <p class="banner__texto">Encontre em nosso site tudo oque você precisa!/p>
+    <input type="search" class="banner__pesquisa" placeholder="Qual será seu proximo item de maquiagem?">
+  </section>
+
+  <section class="carrossel">
+    <h2 class="carrossel__titulo">Novos lançamentos</h2>
+    <!-- Slider main container -->
+    <div class="swiper">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide"><img src="img/7898724571622-1.webp"
+            alt="Base facial de longa duração"></div>
+        <div class="swiper-slide"><img src="img/AP2001157CO037F_corretivo_liquido_concealer_oceane_edition_fair_1.webp"
+            alt="Corretivo longa duração"></div>
+        <div class="swiper-slide"><img src="img/corretivo_e_contorno_dia_a_dia_mahav_box_com_48_und_r_504_00_6309_1_bc0e9aac933b22d3e74592474bafb455.webp" alt="Contorno">
+        </div>
+        <div class="swiper-slide">
+          <img src="img/11514988-1_1.webp" alt="blush" />
+        </div>
+        <div class="swiper-slide">
+          <img src="img/Paleta-de-Sombras-11-600x600.jpg" alt="paleta de sombras" />
+        </div>
+        <div class="swiper-slide">
+          <img src="img/iluminador-facial-glister-embalagem-laranja-dourado-mari-maria-makeup.png" alt="iluminador" />
+        </div>
+      </div>
+
+      <!-- If we need navigation buttons -->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+
+    </div>
+
+    <div class="card">
+      <div class="card__descrição">
+        <div class="descrição">
+          <h3 class="descrição__titulo">nossa nova linhas de batons!</h3>
+          <h2 class="descrição__titulo-livro"></h2>
+          <p class="descrição__texto">
+            
+          </p>
+        </div>
+        <img src="img/AP2001152C003F_batom_the_lipstick_oceane_edition_red_kiss_vermelho_2.webp" class="descrição__imagem" />
+      </div>
+      <div class="card__botões">
+        <ul class="botões">
+          <li class="botões__item">
+            <img src="img/Img_ftr_p_1064502-1160x1160.jpeg" alt="BATOM" />
+          </li>
+          <li class="botões__item">
+            <img src="img/5afa89a4-b318-4174-bb9a-2c7e45ef88211-afba7b172036b3e59d16825404869993-640-0.png" alt="BATOM" />
+          </li>
+        </ul>
+        <a href="#" class="botões__ancora"></a>
+      </div>
+    </div>
+
+  </section>
+
+  <section class=”carrossel”>
+    <h2 class="carrossel__titulo">Mais vendidos</h2>
+    <div class="swiper">
+      <!-- Additional required wrapper -->
+      <!-- If we need pagination -->
+      <div class="swiper-pagination"></div>
+
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide"><img src="img/2-blog_pó-makie-2-1024x1024.jpg"
+            alt="pó compacto"></div>
+        <div class="swiper-slide"><img src="img/3699273802_1.webp" alt="pó de banana">
+        </div>
+        <div class="swiper-slide"><img src="img/unnamed.jpg" alt="pó translúcido">
+        </div>
+        <div class="swiper-slide"><img src="img/images (2).jpeg" alt="Livro Guia front end"></div>
+        <div class="swiper-slide"><img src="img/" alt="Livro sobre portugol"></div>
+        <div class="swiper-slide"><img src="img/" alt="livro sobre acessibilidade"></div>
+      </div>
+
+      <!-- If we need navigation buttons -->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    </div>
+
+    <div class="card">
+      <!-- 1º linha -->
+      <div class="card__descrição">
+        <!-- 1º coluna -->
+        <div class="descrição">
+          <img src="img/images (2).jpeg" alt="">
+          <h3 class="descrição__titulo"></h3>
+          <h2 class="descrição__titulo-livro"><v/h2>
+          <p class="descrição__texto">
+          </p>
+        </div>
+        <!-- 2º coluna -->
+        <img src="img/882b34fbea90ed3f7f590af5e57a500d.webp" class="descrição__imagem">
+      </div>
+
+      <!-- 2º linha -->
+      <div class="card__botões">
+        <!-- 1º coluna -->
+        <ul class="botões">
+          <li class="botões__item"><img src="img/Favoritos.svg" alt="Favoritar livro"></li>
+          <li class="botões__item"><img src="img/Compras.svg" alt="Adicionar no carrinho de compras"></li>
+        </ul>
+        <!-- 2º coluna -->
+        <a href="#" class="botões__ancora">Saiba mais</a>
+      </div>
+    </div>
+
+
+
+  </section>
+
+  <section class="tópicos">
+    <h2 class="tópicos__titulo">TÓPICOS VISITADOS RECENTEMENTE</h2>
+    <ul class="tópicos__lista">
+      <li class="tópicos__item"><a href="#" class="tópicos__link">Android</a></li>
+      <li class="tópicos__item">
+        <a href="#" class="tópicos__link">Marketing Digital</a>
+      </li>
+      <li class="tópicos__item">
+        <a href="#" class="tópicos__link">Agile</a>
+      </li>
+      <li class="tópicos__item">
+        <a href="#" class="tópicos__link">Startups</a>
+      </li>
+      <li class="tópicos__item">
+        <a href="#" class="tópicos__link">HTML & CSS</a>
+      </li>
+      <li class="tópicos__item">
+        <a href="#" class="tópicos__link">Python</a>
+      </li>
+      <li class="tópicos__item">
+        <a href="#" class="tópicos__link">OO</a>
+      </li>
+      <li class="tópicos__item">
+        <a href="#" class="tópicos__link">Java</a>
+      </li>
+    </ul>
+  </section>
+
+  <section class="contato">
+    <h2 class="contato__titulo">Fique por dentro das novidades!</h2>
+    <p class="contato__texto">
+      Atualizações de e-books, novos livros, promoções e outros.
+    </p>
+    <input type="email" placeholder="Cadastre seu e-mail" class="contato__email" />
+  </section>
+
+  <hr />
+
+  <footer class="rodapé">
+    <h2 class="rodapé__titulo">Grupo Alura</h2>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script>
+    const swiper = new Swiper(".swiper", {
+      spaceBetween: 10,
+      slidesPerView: 3,
+      pagination: {
+        el: ".swiper-pagination",
+        type: "bullets",
+      },
+    });
+  </script>
+</body>
+
+</html>
